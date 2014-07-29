@@ -1,6 +1,6 @@
 # Translaitah
 
-TODO: Write a gem description
+This gem is an API hack for google translate, allowing translation of all of the supported languages by google.
 
 ## Installation
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Translaitah creates an object for one way translation using google's two letter abbreviations.
+
+    require 'translaitah'
+
+    translator = Translaitah.new("en","es")
+    translator.translate("I don't like you")
+    # => "No me agradas"
+
+It isn't perfect, but I mean, what is? It's online
 
 ## Contributing
 
