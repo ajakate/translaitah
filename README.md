@@ -23,8 +23,8 @@ Translaitah creates an object for one way translation using google's two letter 
     require 'translaitah'
 
     translator = Translaitah.new("en","es")
-    translator.translate("I don't like you")
-    # => "No me agradas"
+    translator.translate("Go to hell")
+    # => "Vete al infierno"
 
 It isn't perfect, but I mean, what is? It's online
 
