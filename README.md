@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ajakate/translaitah.svg?branch=master)](https://travis-ci.org/ajakate/translaitah)
+
 # Translaitah
 
 This gem is an API hack for google translate, allowing translation of all of the supported languages by google.
