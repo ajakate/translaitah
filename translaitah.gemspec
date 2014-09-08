@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Translaitah::VERSION
   spec.authors       = ["ajakate"]
   spec.email         = ["ajay.jakate@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
+  spec.description   = %q{An API hack of google translate}
   spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ajakate/translaitah"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
