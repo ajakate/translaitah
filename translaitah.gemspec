@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'translaitah/version'
+require 'transleet/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "translaitah"
-  spec.version       = Translaitah::VERSION
+  spec.name          = "transleet"
+  spec.version       = Transleet::VERSION
   spec.authors       = ["ajakate"]
   spec.email         = ["ajay.jakate@gmail.com"]
   spec.description   = %q{An API hack of google translate}
   spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = "https://github.com/ajakate/translaitah"
+  spec.homepage      = "https://github.com/ajakate/transleet"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

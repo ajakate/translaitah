@@ -1,8 +1,8 @@
-require "translaitah/version"
+require "transleet/version"
 require "uri-handler"
 require "httparty"
 
-class Translaitah
+class Transleet
 
   GOOGLE_TRANSLATE_TEMPLATE='http://translate.google.com/translate_a/t?client=t&text=[[sentence]]&hl=[[to]]&s' +
     'l=[[from]]&tl=[[to]]&ie=UTF-8&oe=UTF-8&multires=1&otf=1&pc=1&trs=1&ssel=3&tsel=6&sc=1'

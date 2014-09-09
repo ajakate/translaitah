@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in translaitah.gemspec
+# Specify your gem's dependencies in transleet.gemspec
 gemspec
 
 ruby '2.0.0'

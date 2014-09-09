@@ -1,3 +1,3 @@
-class Translaitah
+class Transleet
   VERSION = "0.0.1"
 end
