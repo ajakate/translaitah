@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/ajakate/translaitah.svg?branch=master)](https://travis-ci.org/ajakate/translaitah)
+[![Build Status](https://travis-ci.org/ajakate/transleet.svg?branch=master)](https://travis-ci.org/ajakate/transleet)
 
-# Translaitah
+# Transleet
 
 This gem is an API hack for google translate, allowing translation of all of the supported languages by google.
 
@@ -8,7 +8,7 @@ This gem is an API hack for google translate, allowing translation of all of the
 
 Add this line to your application's Gemfile:
 
-    gem 'translaitah'
+    gem 'transleet'
 
 And then execute:
 
@@ -16,15 +16,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install translaitah
+    $ gem install transleet
 
 ## Usage
 
-Translaitah creates an object for one way translation using google's two letter abbreviations.
+Transleet creates an object for one way translation using google's two letter abbreviations.
 
-    require 'translaitah'
+    require 'transleet'
 
-    translator = Translaitah.new("en","es")
+    translator = Transleet.new("en","es")
     translator.translate("Go to hell")
     # => "Vete al infierno"
 
