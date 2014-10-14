@@ -25,7 +25,7 @@ class Transleet
   end
 
   def parse_translation(response)
-    response.gsub("[","").gsub("\"","").split(',').first
+    response.split('"')[1]
   end
 
 end
